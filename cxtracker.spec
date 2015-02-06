@@ -4,7 +4,7 @@
 Name: %{name}
 Summary: Connection Tracker - is a passive network connection tracker
 Version: %{version}
-Release: 2
+Release: 3
 License: GPLv3
 Group: Monitoring
 Source: https://github.com/gamelinux/%{name}/zipball/%{version}
