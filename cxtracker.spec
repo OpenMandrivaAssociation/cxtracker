@@ -1,10 +1,10 @@
 %define name cxtracker
-%define version 0.9.5
+%define version 0.9.8
 
 Name: %{name}
 Summary: Connection Tracker - is a passive network connection tracker
 Version: %{version}
-Release: 3
+Release: 1
 License: GPLv3
 Group: Monitoring
 Source: https://github.com/gamelinux/%{name}/zipball/%{version}
@@ -32,11 +32,3 @@ install -m 755 ../sbin/cxtracker.pl %{buildroot}%{_bindir}
 %defattr(0755,root,root)
 %{_bindir}/cxtracker
 %{_bindir}/cxtracker.pl
-
-
-%changelog
-* Thu Jun 09 2011 Leonardo Coelho <leonardoc@mandriva.com> 0.9.5-1mdv2011.0
-+ Revision: 683789
--first mandriva version
-- Created package structure for cxtracker.
-
