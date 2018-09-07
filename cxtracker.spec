@@ -4,7 +4,7 @@ Version: 0.9.8
 Release: 1
 License: GPLv3
 Group: Monitoring
-Source0: %{name}-%{version}
+Source0: %{name}-%{version}.tar.gz
 #Source: https://github.com/gamelinux/cxtracker/archive/%{version}.tar.gz
 URL:	https://github.com/gamelinux/cxtracker
 Requires: perl-Net-Pcap perl-Getopt-Long-Descriptive perl-DateTime perl-NetPacket
@@ -17,7 +17,7 @@ as an replacement for sancp in the sguil setup. It handles vlan (2 layers)
 and IPv6 out of the box.
 
 %prep
-%setup -qn %{name}-%{version}.tar.gz
+%setup -qn %{name}-%{version}
 
 %install
 cd src/
