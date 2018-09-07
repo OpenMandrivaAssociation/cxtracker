@@ -19,7 +19,7 @@ as an replacement for sancp in the sguil setup. It handles vlan (2 layers)
 and IPv6 out of the box.
 
 %prep
-%setup -n 
+%setup -q -n %{name}-%{version}
 
 %install
 cd src/
