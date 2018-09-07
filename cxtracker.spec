@@ -9,6 +9,7 @@ Source0: %{name}-%{version}.tar.gz
 URL:	https://github.com/gamelinux/cxtracker
 Requires: perl-Net-Pcap perl-Getopt-Long-Descriptive perl-DateTime perl-NetPacket
 BuildRequires: libpcap-devel
+BuildRequires: perl-Net-Pcap
 
 %description
 CxTracker (Connection Tracker) is a passive network connection tracker 
