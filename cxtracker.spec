@@ -1,9 +1,6 @@
-%define name cxtracker
-%define version 0.9.8
-
-Name: %{name}
+Name: cxtracker
 Summary: Connection Tracker - is a passive network connection tracker
-Version: %{version}
+Version: 0.9.8
 Release: 1
 License: GPLv3
 Group: Monitoring
@@ -20,7 +17,7 @@ as an replacement for sancp in the sguil setup. It handles vlan (2 layers)
 and IPv6 out of the box.
 
 %prep
-%setup -q -n %{name}-%{version}
+%setup -qn %{name}-%{version}
 
 %install
 cd src/
