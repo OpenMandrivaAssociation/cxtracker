@@ -7,7 +7,8 @@ Version: %{version}
 Release: 1
 License: GPLv3
 Group: Monitoring
-Source: https://github.com/gamelinux/cxtracker/archive/%{version}.tar.gz
+Source0: %{name}-%{version}
+#Source: https://github.com/gamelinux/cxtracker/archive/%{version}.tar.gz
 URL:	https://github.com/gamelinux/cxtracker
 Requires: perl-Net-Pcap perl-Getopt-Long-Descriptive perl-DateTime perl-NetPacket
 BuildRequires: libpcap-devel
