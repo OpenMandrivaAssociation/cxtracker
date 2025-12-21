@@ -10,6 +10,7 @@ Group: Monitoring
 Source: https://github.com/gamelinux/%{name}/zipball/%{version}
 URL:	https://github.com/gamelinux/cxtracker
 Requires: perl-Net-Pcap perl-Getopt-Long-Descriptive perl-DateTime perl-NetPacket
+BuildRequires:	make
 BuildRequires: libpcap-devel
 
 %description
